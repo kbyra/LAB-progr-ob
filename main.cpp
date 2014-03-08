@@ -68,7 +68,7 @@ int main()
 	_getch();
 }
 
-// Wniosek 1: Zmienne obiektu struktury domyœlnie s¹ widoczne.
-// Wniosek 2: Zmienne obiektu klasy domyœlnie s¹ nie widoczne - prywatne ("cannot access private member declared in class 'Circle'").
-// Wniosek 3: Pobieramy i ustawiamy dane w klasie przy u¿yciu specjalnych publicznych metod, poniewa¿ tylko metody danej klasy
-//maj¹ dostêp do sk³adników private klasy.
+// Wniosek 1: Zmienne obiektu struktury domyslnie sa widoczne.
+// Wniosek 2: Zmienne obiektu klasy domyslnie sa nie widoczne - prywatne ("cannot access private member declared in class 'Circle'").
+// Wniosek 3: Pobieramy i ustawiamy dane w klasie przy uzyciu specjalnych publicznych metod, poniewaz tylko metody danej klasy
+//maja dostep do skladnikow private klasy.
