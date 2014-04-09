@@ -11,7 +11,14 @@ private:
 	int publications;
 
 public:
-	Tutor(char n[], char ln[], sex se, int a, char d[], int p);
+	Tutor(char name[], char last_name[], ::sex sex, int age, char degree[], int publications);
+
+	void set_degree(char *degree);
+	void set_publications(int publications);
+
+	char *get_degree();
+	int get_publications();
+
 	void info();
 
 };

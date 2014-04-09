@@ -27,6 +27,9 @@ int main()
 	h1 = s1;
 	h1.show();
 
+	s1.set_last_name("Brzeczyszczykiewicz");
+	cout << s1.get_last_name();
+
 	_getch();
 }
 
