@@ -96,12 +96,20 @@ istream & operator>>(istream & keyboard, Student2 & s2)
 }
 
 //Wniosek 1:
+<<<<<<< HEAD
 //Po utworzeniu klasy abstrakcyjnej Mammal, a w niej funkcji czysto wirtualnej birthday, niezbedne bylo napisanie funkcji birthday w klasach dziedziczacych po Mammal,
+=======
+//Po utworzeniu klasy abstrakcyjnej Mammal, a w niej funkcji czysto wirtualnej birthday, niezbedne by³o napisanie funkcji birthday w klasach dziedziczacych po Mammal,
+>>>>>>> 4b26f7066b12624182b28ce12306f88f29b6ea91
 //poniewaz bez tego klasy pochodne dziedzicza funkcje czysto wirtualna i sa traktowane jako klasy abstrakcyjne, co uniemozliwia utworzenie ich obiektow.
 //Przykladowe zastosowanie zalet polimorfizmu - dzieki funkcji czysto wirtualnej wskaznik na obiekt Mammal wybiera odpowiednia funkcje birthday, w zaleznosci na co wskazuje.
 
 //Wniosek 2:
 //Klasa abstrakcyjna bedaca interfejsem zawiera wylacznie publiczne deklaracje funkcji czysto wirtualnych, w odroznieniu od zwyklej klasy abstrakcyjnej ktora musi zawierac co najmniej
+<<<<<<< HEAD
 //jedna funkcje czysto wirtualna, a poza nia moze miec np. jakies zdefiniowane funkcje skladowe lub dane (niekoniecznie publiczne). Klasa abstrakcyjna z interfejsem gwarantuje to, ze klasa ja
+=======
+//jedna funkcje czysto wirtualna, a poza nia moze miec np. jakies zdefiniowane funkcje skladowe lub dane. Klasa abstrakcyjna z interfejsem gwarantuje to, ze klasa ja
+>>>>>>> 4b26f7066b12624182b28ce12306f88f29b6ea91
 //implementujaca bedzie zawierala jej metody. Zwykla klasa moze implementowac wiele interfejsow. Interfejs przydaje sie gdy zalezy nam na polimorfizmie i
 //zaimplementujemy go do kilku klas.
